@@ -38,3 +38,51 @@ Backend API calculates estimated CO₂ footprint
 Dashboard with interactive charts (bar & pie)  
 (Future) Add food choices & water footprint  
 (Future) User login and database storage  
+
+Getting Started
+
+Clone Repository
+```bash
+git clone https://github.com/Jay8227/EcoTrack.git
+cd EcoTrack
+
+Backend setup
+cd backend
+npm install
+npm start     # runs Express server at http://localhost:5000
+
+Fronted setup
+cd frontend
+npm install
+npm run dev   # runs Vite dev server at http://localhost:5173
+
+Folder structure
+EcoTrack/
+│── backend/          # Node.js + Express API
+│   ├── server.js
+│   ├── package.json
+│   └── ...
+│
+│── frontend/         # Vue 3 + Vite app
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.vue
+│   ├── package.json
+│   └── ...
+│
+│── README.md         # Project documentation
+│── LICENSE
+└── .gitignore
+
+Usage:
+Enter daily electricity use (kWh/day) and travel distance (km/day).
+Backend API calculates CO₂ footprint.
+Results are shown in bar & pie charts instantly.
+
+Contributors:
+@Jay8227
+
+
+License
+This project is licensed under the MIT License.
