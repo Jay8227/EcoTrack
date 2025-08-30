@@ -82,6 +82,9 @@ Results are shown in bar & pie charts instantly.
 
 Contributors:
 @Jay8227
+@aryaabhilash7
+@prabhakardrishti3
+@parthsatarkar16
 
 
 License
