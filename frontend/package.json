@@ -1,0 +1,30 @@
+{
+  "name": "carbon-footprint-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Frontend for Carbon Footprint Calculator (Hackathon Project)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.1",
+    "vue": "^3.3.4",
+    "vue-chartjs": "^5.2.0",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.5.0"
+  },
+  "keywords": [
+    "vite",
+    "vue",
+    "carbon-footprint",
+    "chartjs",
+    "hackathon"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
