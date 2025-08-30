@@ -81,10 +81,10 @@ Backend API calculates CO₂ footprint.
 Results are shown in bar & pie charts instantly.
 
 Contributors:
-@Jay8227
-@aryaabhilash7
-@prabhakardrishti3
-@parthsatarkar16
+@Jay8227 (Lead person)
+@aryaabhilash7 (Code Tester)
+@prabhakardrishti3 (Image, Project Presenter)
+@parthsatarkar16 (Idea generator)
 
 
 License
