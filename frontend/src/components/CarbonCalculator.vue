@@ -35,7 +35,7 @@ const chartOptions = {
 // ✅ Call backend API
 async function calculate() {
   try {
-    const res = await fetch('/_/backend/calculate', {
+    const res = await fetch('/api/calculate', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
